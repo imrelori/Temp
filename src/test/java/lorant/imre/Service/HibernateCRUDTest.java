@@ -7,6 +7,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
 
 public class HibernateCRUDTest {
 
@@ -50,7 +51,7 @@ public class HibernateCRUDTest {
         assertEquals(11, returnedPlayer.getScore());
     }
 
-    /*@Test
+    @Test
     public void testUpdate() {
         player = new Player();
         playerService = new PlayerService();
@@ -69,7 +70,7 @@ public class HibernateCRUDTest {
         assertEquals(123, players2.get(0).getScore());
 
         playerService.delete(players1.get(0).getId());
-    }*/
+    }
 
     @Test
     public void testDelete() {
