@@ -1,0 +1,26 @@
+2018-05-12 11:39:57 [main] lorant.imre.Service.PlayerService.persist()
+INFO: Player persisted.
+2018-05-12 11:39:58 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.
+2018-05-12 11:39:59 [main] lorant.imre.Service.PlayerService.delete()
+INFO: Deleted Player with id47.
+2018-05-12 11:39:59 [main] lorant.imre.Service.PlayerService.persist()
+INFO: Player persisted.
+2018-05-12 11:40:00 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.
+2018-05-12 11:40:00 [main] lorant.imre.Service.PlayerService.findById()
+INFO: Player with id 48 found.
+2018-05-12 11:40:01 [main] lorant.imre.Service.PlayerService.deleteAll()
+INFO: All Player deleted.
+2018-05-12 11:40:01 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.
+2018-05-12 11:40:02 [main] lorant.imre.Service.PlayerService.persist()
+INFO: Player persisted.
+2018-05-12 11:40:02 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.
+2018-05-12 11:40:03 [main] lorant.imre.Service.PlayerService.delete()
+INFO: Deleted Player with id49.
+2018-05-12 11:40:03 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.
+2018-05-12 11:40:04 [main] lorant.imre.Service.PlayerService.findAll()
+INFO: All Player found.

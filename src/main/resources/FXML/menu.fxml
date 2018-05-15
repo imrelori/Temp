@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: POWDERBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lorant.imre.Controller.MenuController">
+   <children>
+      <Button fx:id="startButton" layoutX="198.0" layoutY="200.0" mnemonicParsing="false" onAction="#startGame" prefHeight="33.0" prefWidth="176.0" style="-fx-text-fill: white; -fx-font-family: Arial Narrow; -fx-font-weight: bold; -fx-background-color: linear-gradient(#61a2b1, #2A5058);; -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );; -fx-font-size: 18;" text="Start Game">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label fx:id="scoreLabel" layoutX="26.0" layoutY="34.0" prefHeight="25.0" prefWidth="157.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="quitButton" layoutX="213.0" layoutY="260.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="17.0" prefWidth="147.0" style="-fx-text-fill: white; -fx-font-family: Arial Narrow; -fx-font-weight: bold; -fx-background-color: linear-gradient(#61a2b1, #2A5058); -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); -fx-font-size: 17;" text="Quit">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="playerNameTF" alignment="CENTER" layoutX="198.0" layoutY="120.0" prefHeight="41.0" prefWidth="176.0" promptText="Say your name!" style="-fx-font-weight: bold; -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 ); -fx-font-size: 18;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text fill="#2894ff" layoutX="150.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meth Jump" textAlignment="CENTER" wrappingWidth="274.0">
+         <font>
+            <Font name="Jokerman" size="41.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
